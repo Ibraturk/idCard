@@ -1,0 +1,68 @@
+body{
+    
+    font-family: 'Roboto Slab', serif;
+    background-image: url("https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800");
+    
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: grid;
+    grid-template-rows: 3fr 55px 55px 1fr;
+    width: 350px;
+    height: 550px;
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    position: absolute;
+    max-width: 100%;
+
+    
+    
+}
+.card img:nth-child(2)
+{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 115px;
+    margin-top: 150px ;
+    
+
+    border: 6px solid white;
+    
+}
+.card p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+  
+
+}
+.card :nth-child(5)
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    display: flex;  
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-right: 50px;
+    
+}
+.container img{
+  width: 40px;
+  height: 40px;
+  
+  
+}
